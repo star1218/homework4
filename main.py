@@ -46,3 +46,18 @@
 # for phone_number in test_cases:
 #     print(f"{phone_number}: {numbers_home_phone(phone_number)}")
 
+# import re #4
+# def full_name(name):
+#     pattern = r'^[a-zA-Zа-яА-Я]{2,20}(?:\s+[a-zA-Zа-яА-Я]{2,20}){2}$'
+#     if re.match(pattern,name):
+#         return True
+#     else:
+#         return False
+# test_cases=[
+#     "Ткаченко Игорь Анатольевич",
+#     "Thomas Cruise Mapother",
+#     "Ткаченко Игорь",
+#     "T C M"
+# ]
+# for name in test_cases:
+#     print(f"{name}:{full_name(name)}")
