@@ -29,3 +29,20 @@
 # ]
 # for phone in test_cases:
 #     print(f"{phone}:{numbers_phone(phone)}")
+
+# import re #1
+# def numbers_home_phone(phone_number):
+#     pattern = r'^\d{7}$'
+#     if re.match(pattern, phone_number):
+#         return True
+#     else:
+#         return False
+# test_cases=[
+#     "0093457",
+#     "43212",
+#     "12345465766712435341343412341341323123"
+#
+# ]
+# for phone_number in test_cases:
+#     print(f"{phone_number}: {numbers_home_phone(phone_number)}")
+
